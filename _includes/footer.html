@@ -1,2 +1,13 @@
-<script src="{{ site.baseurl }}/assets/js/jquery-3.4.1.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/functions.js"></script>
+<footer class="footer-wrapper">
+    <div id="newsletter" class="newsletter-slug">
+        <h2>Newsletter</h2>
+        <p>Stay connected and get updates on projects I'm working on.</p>
+    </div>
+    {% include newsletter-form.html %}    
+    <div class="footer-social-links">
+        <a href="{{ site.facebook_path }}" target="_blank" class="social-icon-wrap footer-facebook-wrapper"></a>
+        <a href="{{ site.twitter_path }}" target="_blank" class="social-icon-wrap footer-twitter-wrapper"></a>
+        <a href="{{ site.github_path }}" target="_blank" class="social-icon-wrap footer-github-wrapper"></a>
+    </div>
+    <a href="mailto: {{ site.email }}" class="footer-email">{{ site.email }}</a>
+</footer>
