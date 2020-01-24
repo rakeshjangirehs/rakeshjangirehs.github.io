@@ -33,10 +33,11 @@ github_path: https://github.com/rakeshjangirehs
 facebook_username:  Rakesh Jangir
 facebook_path: https://www.facebook.com/rjtarpura
 
-permalink: preety
+pathToBlogImgBin: /assets/img/blog/
 
 # Build settings
 # theme: minima
+# permalink: preety
 
 # use sass and autoprefixer
 
