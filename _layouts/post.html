@@ -17,6 +17,13 @@ layout: default
 </div>
 <hr/>
 <h5 class="read-more-CTA">You Might Want To Read...</h5>
-<div class="blogReadMoreWrapper">
-
+<div class="blog-read-more-wrapper">
+    {% for post in site.posts limit: 3%}
+    <div class="blog-post-container">
+        <a href="{{ post.url }}" class="blog-post-feat-image" style="background-image: url('{{ site.baseurl }}{{site.pathToBlogImgBin}}lowRes/{{post.featImg}}');"></a>
+        <a href="" class="blog-category">{{ post.categories }}</a>
+        <a href="{{ post.url }}" class="blog-title">{{ post.title }}</a>
+        <p class="blog-excerpt">{{ post.excerpt }}</p>
+    </div>
+    {% endfor %}
 </div>

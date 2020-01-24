@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technology Making Us Lazy
+title: Hello World
 categories: technology
 featImg: blog-3.jpg
 excerpt: "In a recent discussion about the internet of things, a group of friends and I entertained the idea of one day being able to wake up in."

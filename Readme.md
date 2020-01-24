@@ -6,3 +6,6 @@ Start jekyll server:
 
 Install Gem:
     bundle install
+
+Future Enhansements:
+    You Might Want To Read... section in blog should not containe current post
