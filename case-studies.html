@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="case-studies-header-main" style="background-image: url('{{ site.url }}/assets/img/case-studies/pexels-photo-1112048.jpeg');">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+    <div class="case-studies-title">
+        <h1 class="">Case Studies</h1>
+        <a class="see-our-story" href="#">See Our Story</a>
+    </div>
+</header>
+{% for casestudy in site.casestudies%}
+    <a href="{{ casestudy.url }}">{{ casestudy.company_name }}</a>
+{% endfor %}

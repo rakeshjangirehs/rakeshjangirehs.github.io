@@ -35,6 +35,10 @@ facebook_path: https://www.facebook.com/rjtarpura
 
 pathToBlogImgBin: /assets/img/blog/
 
+collections:
+  casestudies:
+    output: true
+
 # Build settings
 # theme: minima
 # permalink: preety
